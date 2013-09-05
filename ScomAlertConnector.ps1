@@ -1,7 +1,7 @@
 #need to identify script folder
 $ScriptPath = $MyInvocation.MyCommand.Path -replace $MyInvocation.MyCommand.Name;
 #Network name of one of your management servers
-$ManagementServer = "khadievscom.avp.ru";
+$ManagementServer = "scom.contoso.com";
 #GUID of your custom connector, this was specified when creating it
 $strGuid = "{6A1F8C0E-B8F1-4147-8C9B-5A2F98F10007}";
 #addresses for notification emails
